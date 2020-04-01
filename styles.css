@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('images/lovebackground.jpg');
+}
+.navbar{
+	width: 80%;
+	margin: 0 auto 0 auto;
+	margin-top: 20px;
+}
+.navbar-brand{
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+}
+#nav-div{
+	padding-top: 10px;
+}
+.nav-link{
+	font-family: 'Comic Neue', cursive;
+	font-size: 20px;
+}
+.image-div{
+	background-image: url('images/lovebackground.jpg');
+	height: auto; 
+	padding-bottom: 50px;
+}
+.dropdown-menu{
+	background-color: rgba(0, 0, 0, 0.1)
+}
+#title-cd{
+	padding-top: 100px;
+	text-align: center;
+}
+#title-cd h1{
+	font-size: 80px;
+	letter-spacing: 1px;
+	font-family: 'Baloo Thambi 2', cursive;
+}
+#title-cd p{
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	font-family: 'Comic Neue', cursive;
+}
+#table-cf{
+	text-align: center;
+	width: 80%;
+	padding: 100px 0;
+}
+.input-row{
+	width: 60%;
+	margin: 0px auto;
+	text-align: center;
+}
+#goback{
+	margin: 20px auto 0 auto;
+}
+.btn{
+	width:50%;
+	margin-top: 50px;
+	font-size: 25px;
+	background-color: black;
+}
+#result{
+	color: red;
+	margin-left:100px;
+}
+.gifdiv{
+	position: absolute;
+	top: 200px;
+	left: 150px;
+}
+.gif{
+	height: 200px;
+	width: 200px;
+}
+#ful{
+	width: 15%;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+@media(max-width:800px){
+	.navbar{
+	width: 100%;
+	margin-top: 10px;
+}
+.navbar-brand{
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+}
+#title-cd h1{
+	font-size: 45px;
+}
+#title-cd p{
+	font-size: 15px;
+}
+#table-cf{
+	width: 100%;
+	padding-top:50px;
+}
+.input-row{
+	width: 80%;
+}
+.btn{
+	width:80%;
+}
+.form-control{
+	margin-top: 10px;
+}
+.image-div{
+	padding-bottom: 20px;
+}
+.nav-item{
+	text-align: center;
+}
+#ful{
+	width: 35%;
+	margin: 50px 0 10px 0;
+	padding: 0;
+}
+#result{
+	color: red;
+	margin-left:10px;
+	font-size: 25px;
+}
+.gifdiv{
+	display: none;
+}
+.btn a{
+	color: white !important;
+	text-decoration: none !important;
+}
+.btn a:hover{
+	color: white;
+	text-decoration: none;
+}
+#golink{
+	color: white !important;
+	text-decoration: none !important;
+}
+#golink :hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+}
+@media(max-width:1200px){
+	.gifdiv{
+	display: none;
+}
+}
